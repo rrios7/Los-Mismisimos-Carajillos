@@ -1,27 +1,32 @@
-/*
- © $%Y%$-$%M%$-$%D%$ $%h%$:$%m%$:$%s%$ $%U%$ All Rights Reserved
-*/
-
 // #pragma GCC optimize("Ofast,no-stack-protector,unroll-loops,fast-math")
 // #pragma GCC target("avx,avx2,fma")
 #include <bits/stdc++.h>
-#define f first
-#define s second
-#define fore(i,a,b) for(int i = (a), ThxMK = (b); i < ThxMK; ++i)
+#define F first
+#define S second
+#define FOR(i,a,b) for(int64_t  i{a}, FLIM{b}; i < FLIM; ++i)
+#define FOR1(i,n) for(int64_t  i{1}, FLIM{n}; i <= FLIM; ++i)
 #define pb push_back
+#define eb emplace_back
 #define all(s) begin(s), end(s)
-#define _ ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define sz(s) int(s.size())
-#define ENDL '\n'
+#define rall(s) rbegin(s), rend(s)
+#define endl '\n'
+#define deb(x) cout << #x": " << (x) << endl;
 using namespace std;
-typedef long double ld;
-typedef long long lli;
-typedef pair<lli,lli> ii;
-typedef vector<lli> vi;
+template <typename T> static constexpr T inf = numeric_limits<T>::max();
+using ld = long double;
+using lli = long;
+using vi = vector<lli> ;
 #define deb(x) cout << #x": " << (x) << endl;
 
-int main(){ _
-  // freopen("file.in","r",stdin);
-  // freopen("file.out","w",stdout);
+constexpr lli kMod = 1e9 + 7;
+
+void solve() {
+}
+
+int main(){ios_base::sync_with_stdio(0);cin.tie(0);
+  lli T = 1;
+  //cin >> T;
+  FOR1(i,T)
+    solve();
   return 0;
 }
